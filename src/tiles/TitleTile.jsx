@@ -39,7 +39,7 @@ const FlexWrap = styled.div`
   flex-wrap: wrap;
 `;
 
-const ContactButton = styled.a`
+const ContactButton = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,6 +54,7 @@ const ContactButton = styled.a`
   outline: none;
   background: transparent;
   cursor: pointer;
+  font-size: 1rem;
 
   :hover,
   :focus {
@@ -61,10 +62,24 @@ const ContactButton = styled.a`
   }
 `;
 
+const onContactButtonActivation = event => {
+  event.stopPropagation();
+  event.preventDefault();
+
+  if (event.key === undefined || ['Space', 'Enter'].includes(event.key)) {
+    window.Calendly.initPopupWidget({ url: 'https://calendly.com/jurajgaraj' });
+  }
+};
+
 function TitleTile() {
   return (
     <Wrapper>
-      <ContactButton>Let&apos;t talk</ContactButton>
+      <ContactButton
+        onClick={onContactButtonActivation}
+        onKeyPress={onContactButtonActivation}
+      >
+        Let&apos;s talk
+      </ContactButton>
       <Title>
         <NoBreak>Hi, I’m Juraj,</NoBreak>
         &nbsp;
