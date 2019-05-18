@@ -44,8 +44,8 @@ const ContactButton = styled.a`
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 2rem;
+  right: 2rem;
   border-radius: 2.5rem;
   border: 0.125rem solid ${s.colors.red};
   width: 6rem;
