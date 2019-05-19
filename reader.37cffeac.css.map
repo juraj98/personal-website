@@ -1,0 +1,1 @@
+{"version":3,"sources":["style/reader.scss"],"names":[],"mappings":"AAAA,0BAEE,YAAA,CACA","file":"reader.37cffeac.css","sourceRoot":"../src","sourcesContent":[".screen-only,\n.reader-only {\n  display: none;\n  visibility: hidden;\n}\n"]}

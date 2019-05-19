@@ -1,0 +1,1 @@
+{"version":3,"sources":["style/screen.scss"],"names":[],"mappings":"AAAA,yBAEE,YAAA,CACA","file":"screen.1534dd02.css","sourceRoot":"../src","sourcesContent":[".print-only,\n.reader-only {\n  display: none;\n  visibility: hidden;\n}\n"]}
