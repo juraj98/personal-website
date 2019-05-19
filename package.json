@@ -7,9 +7,12 @@
   "author": "Juraj Garaj <juraj982@gmail.com>",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^2.0.1",
     "parcel-bundler": "^1.12.3",
     "sass": "^1.20.1",
     "scss": "^0.2.4"
