@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("/icomoon.cdf86950.eot?tyhwhc");
+  src: url("/icomoon.cdf86950.eot?tyhwhc#iefix") format("embedded-opentype"),
+    url("/icomoon.12d0ce1b.ttf?tyhwhc") format("truetype"),
+    url("/icomoon.957e297f.woff?tyhwhc") format("woff"),
+    url("/icomoon.ec2a74ae.svg?tyhwhc#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-email:before {
+  content: "\e900";
+}
+.icon-github:before {
+  content: "\e901";
+}
+.icon-linkedin:before {
+  content: "\e902";
+}
+
+/* Reset CSS */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+:root {
+  --color-red: #fc4345; /* This color is also used in manifest.json as theme_color */
+  --color-red-transparent: #fc434510;
+  --color-cyan: #3fefe7;
+  --color-grey: #252525;
+
+  --color-text-primary: rgba(0, 0, 0, 0.87);
+  --color-text-secondary: rgba(0, 0, 0, 0.54);
+  --color-divider: rgba(0, 0, 0, 0.12);
+
+  --color-text-disabled-light: rgba(255, 255, 255, 0.5);
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+
+/*# sourceMappingURL=/main.d4190f58.css.map */

@@ -1,43 +1,17 @@
 {
   "name": "juraj-garaj-personal-website",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://juraj98.github.io/personal-website/",
-  "dependencies": {
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
-    "shortid": "^2.2.14",
-    "styled-components": "^4.2.0"
-  },
+  "version": "1.0.0",
+  "description": "Juraj Garaj's personal website",
+  "main": "src/index.html",
+  "repository": "https://github.com/juraj98/personal-website.git",
+  "author": "Juraj Garaj <juraj982@gmail.com>",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "devDependencies": {
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.11.0",
-    "gh-pages": "^2.0.1"
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.20.1",
+    "scss": "^0.2.4"
   }
 }
