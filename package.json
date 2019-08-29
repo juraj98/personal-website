@@ -6,8 +6,8 @@
   "repository": "https://github.com/juraj98/personal-website.git",
   "author": "Juraj Garaj <juraj982@gmail.com>",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html --public-url .",
+    "build": "parcel build src/index.html --public-url .",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d dist"
   },
