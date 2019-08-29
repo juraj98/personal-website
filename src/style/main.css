@@ -7,7 +7,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 :root {
   --color-red: #fc4345; /* This color is also used in manifest.json as theme_color */
-  --color-red-transparent: #fc434510;
+  --color-white-grey: #F5F5F5;
   --color-cyan: #3fefe7;
   --color-grey: #252525;
 
